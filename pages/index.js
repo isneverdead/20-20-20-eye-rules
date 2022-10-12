@@ -19,11 +19,11 @@ export default function Home() {
         <div className="flex w-full h-full card rounded-xl flex-col items-center py-5 lg:px-24">
           <h1 className='montserrat text-5xl font-bold' style={{ color: '#464646' }}>20-20-20 Eye Rules Counter</h1>
           <h3 className='pt-serif-caption text-2xl mb-5 md:mb-10'>Will notify you when need to relax your eyes</h3>
-          <p className='roboto-condensed text-2xl' style={{ color: '#777777' }}>Don't spend too much to staring at your screen, let your eyes relax for your eye health by using <br /> the <span className='font-bold'>20-20-20 Rule</span> : </p>
+          <p className='roboto-condensed text-2xl' style={{ color: '#777777' }}>Don&apos;t spend too much to staring at your screen, let your eyes relax for your eye health by using <br /> the <span className='font-bold'>20-20-20 Rule</span> : </p>
           <Image src="/images/Flow.png" alt="Flow" className='w-full' width={910} height={166} layout="intrinsic" style={{ maxWidth: 'auto' }} />
           <p className='roboto-condensed text-lg lg:px-8' style={{ color: '#777777' }}>
             Every 20 minutes you look at the screen, rest your eyes for about 20 seconds to look at objects that are 20 feet away from your eyes.
-            <br />looks simple, doesn't it? but sometimes we are often forgotten, that's why I created this tool to remind you.
+            <br />looks simple, doesn&apos;t it? but sometimes we are often forgotten, that&apos;s why I created this tool to remind you.
             <br />Find out more about the 20-20-20 rule for eyes. </p>
           <div className="w-full flex justify-center">
             <button className='px-5 py-1 text-lg roboto-condensed text-white rounded-md' style={{ background: '#A9A9A9' }}>Get Started</button>
@@ -34,7 +34,7 @@ export default function Home() {
               {/* Github */}
               <div className="flex items-center">
                 <Image src="/images/github_icon.svg" alt="Github" className='w-full' width={24} height={24} layout="intrinsic" style={{ maxWidth: 'auto' }} />
-                <a href="https://Github.com/isneverdead/20-20-20-eye-rules" target="_blank" >
+                <a href="https://Github.com/isneverdead/20-20-20-eye-rules" target="_blank" rel="noreferrer"  >
                   <p className='roboto-condensed text-base ml-2' style={{ color: '#777777' }}>Github.com/isneverdead/20-20-20-eye-rules</p>
 
 
@@ -43,14 +43,14 @@ export default function Home() {
               {/* LinkedIn */}
               <div className="flex items-center mt-1">
                 <Image src="/images/linkedin_icon.svg" alt="LinkedIn" className='w-full' width={24} height={24} layout="intrinsic" style={{ maxWidth: 'auto' }} />
-                <a href="https://linkedin.com/in/fariz-akbar" target="_blank" >
+                <a href="https://linkedin.com/in/fariz-akbar" target="_blank" rel="noreferrer" >
 
                   <p className='roboto-condensed text-base ml-2' style={{ color: '#777777' }}>linkedin.com/in/fariz-akbar</p>
                 </a>
               </div>
             </div>
             {/* Credit */}
-            <a href="https://www.pexels.com/photo/beach-bungalow-caribbean-jetty-237272/" target="_blank" >
+            <a href="https://www.pexels.com/photo/beach-bungalow-caribbean-jetty-237272/" target="_blank" rel="noreferrer" >
 
               <p className='roboto-condensed text-base ml-2' style={{ color: '#777777' }}>Photo by Pixabay</p>
             </a>
