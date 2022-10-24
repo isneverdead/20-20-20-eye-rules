@@ -19,7 +19,7 @@ export default function Home() {
         <div className="flex w-full h-full card rounded-xl flex-col items-center py-5 lg:px-24">
           <h1 className='montserrat text-5xl font-bold' style={{ color: '#464646' }}>20-20-20 Eye Rules Counter</h1>
           <h3 className='pt-serif-caption text-2xl mb-5 md:mb-10'>Will notify you when need to relax your eyes</h3>
-          <p className='roboto-condensed text-2xl' style={{ color: '#777777' }}>Don&apos;t spend too much to staring at your screen, let your eyes relax for your eye health by using <br /> the <span className='font-bold'>20-20-20 Rule</span> : </p>
+          <p className='roboto-condensed text-2xl' style={{ color: '#777777' }}>Don&apos;t spend too much to staring at your screen, let your eyes relax for better eye health by using <br /> the <span className='font-bold'>20-20-20 Rule</span> : </p>
           <Image src="/images/Flow.png" alt="Flow" className='w-full' width={910} height={166} layout="intrinsic" style={{ maxWidth: 'auto' }} />
           <p className='roboto-condensed text-lg lg:px-8' style={{ color: '#777777' }}>
             Every 20 minutes you look at the screen, rest your eyes for about 20 seconds to look at objects that are 20 feet away from your eyes.
